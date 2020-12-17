@@ -1,0 +1,53 @@
+Data Dictionary
+
+id (Nominal): a randomly generated id that is created when a pokemon is found
+
+pokestop_id (Nominal): the id of the pokestop the pokemon was found near
+
+spawn_id (Nominal): the id of the spawnpoint(location on the earth) that the pokemon was found
+
+lat (Continuous): latitude where the pokemon was found
+
+lon (Continuous): longitude where the pokemon was found
+
+weight (Continuous): weight of the pokemon in kg
+
+size (Continuous): size of the pokemon in meters
+
+expire_timestamp (Continuous): a guess of the unix time in seconds of when the pokemon will no longer be available
+
+updated (Continuous): the unix time in seconds of when the pokemon was last spotted
+
+pokemon_id (Nominal): the national pokedex number of the pokemon 
+
+move_1 (Nominal): the quick move that the pokemon has
+
+move_2 (Nominal): the charged move that the pokemon has
+
+gender (Nominal): the gender of the pokemon (1 is Male, 2 is Female, 3 is Genderless)
+
+cp (Ordinal): the combat power of the pokemon (ranges from 10-4000)
+
+atk_iv (Ordinal): the attack individual value of the pokemon from 0-15
+
+def_iv (Ordinal): the defense individual value of the pokemon from 0-15
+
+sta_iv (Ordinal): the stamina individual value of the pokemon from 0-15
+
+level (Ordinal): The level of the pokemon from 0-35
+
+weather (Nominal): A weather column that indicates if pokemon was affected by the weather and the weather condition if it was affected (0 = No Effect, 1 = Clear, 2 = Rain, 3 = Partly Cloudy, 4 = Cloudy, 5 = Windy, 6 = Snowy, 7 = Foggy)
+
+first_seen_timestamp (Continuous): the unix time in seconds at which the pokemon was first spotted
+
+iv (Ordinal): atk_iv + def_iv + sta_iv / 45
+
+expire_timestamp_verified (Nominal): 0 if expire_timestamp was wrong, 1 if expire_timestamp was right
+
+shiny (Nominal): 0 if a pokemon was not shiny, 1 if a pokemon was shiny
+
+capture_1 (Continuous): The odds of catching the pokemon with a Poke Ball
+
+capture_2 (Continuous): The odds of catching the pokemon with a Great Ball
+
+capture_3 (Continuous): The odds of catching the pokemon with an Ultra Ball
