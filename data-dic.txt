@@ -20,9 +20,9 @@ updated (Continuous): the unix time in seconds of when the pokemon was last spot
 
 pokemon_id (Nominal): the national pokedex number of the pokemon 
 
-move_1 (Nominal): the quick move that the pokemon has
+move_1 (Nominal): the quick move that the pokemon has (219 = Quick Attack, 205 = Thunder Shock)
 
-move_2 (Nominal): the charged move that the pokemon has
+move_2 (Nominal): the charged move that the pokemon has (35 = Discharge, 251 = Wild Charge, 79 = Thunderbolt)
 
 gender (Nominal): the gender of the pokemon (1 is Male, 2 is Female, 3 is Genderless)
 
